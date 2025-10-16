@@ -15,7 +15,7 @@
 
 <br>
 
- **Colección de promt interesante para tu IA.** 
+ **Colección de promt interesante para tu IA, guardar los promt en la memoria interna.** 
 <br><br> 
 
 <p align="center">
