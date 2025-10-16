@@ -15,7 +15,7 @@
 
 <br>
 
- **Colección completa de métodos HTTP: desde los core definidos por RFC hasta extensiones oficiales y métodos “de la calle” usados por CDNs, proxies y herramientas reales. Esta lista es tu mapa táctico para entender cómo se comunican cliente y servidor, descubrir rutas ocultas, y encontrar comportamientos peligrosos que otros pasan por alto,<a href="https://www.youtube.com/watch?v=m0aktk8Kcdg" target="_blank" rel="noopener">demo lista metodos http Youtube</a>.** 
+ **Colección de promt interesante para tu ia.** 
 <br><br> 
 
 <p align="center">
@@ -26,18 +26,22 @@
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
-### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTdxZzg2Nmhsa2k5ZTJ3dXp6eWw4emcwcDhxY2pkM2NmaG83bzRjNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IzU6RZvqxxRuDExMG1/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
-**•La información sobre métodos HTTP suele estar dispersa en wikis, RFCs y notas sueltas. Esto complica el trabajo en bug bounty y auditorías, donde necesitás saber qué métodos existen, cuáles están activos y qué impacto tienen. <br><br>
-• Esta lista reúne todo en un solo lugar, ahorrando tiempo y evitando omisiones críticas.** 
+### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWMwNWhpbmE1aGsyb3ZxcWZ5dDg5NDNkenJ5cWcyeWM0OXNwc280NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/RLUiICsxex9Up8gW2b/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
+**• Esta estructura (“La Anatomía de un Prompt”) resuelve el mayor problema al trabajar con IAs: prompts vagos, ambiguos o poco útiles que dan respuestas genéricas o incorrectas. Al dividir el prompt en partes claras (meta, formato, advertencias, contexto), evita malentendidos y garantiza precisión, coherencia y resultados relevantes.** 
 
 <br>
 
-### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXR0OGRrYnM4ZHk5a2M2dnFjODgxcnZ3b2lwM2Zmd25pamFsd29xaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/02iB5X78Zrr3Xg7K4n/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
-**• Descubrimiento de superficie oculta: detectar endpoints no documentados y funciones olvidadas.<br><br>
-• Bypass de restricciones: aprovechar métodos alternativos cuando GET o POST están filtrados.<br><br>
-• Fuzzing inteligente: probar el backend con métodos que el desarrollador nunca pensó que alguien usaría.<br><br>
-• Análisis profundo: entender la semántica de cada método para identificar vectores de ataque reales.<br><br>
-• Pentest preciso: separar core, extensiones y no estándar para planificar pruebas específicas.** 
+### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGEwanJkb3AycGg2d2puZ2sydHVwdDR5bWN1ZXYxcngwYmJ1bjNpaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IXzTorXGWKKOjdLQMf/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
+• Esta estructura (“La Anatomía de un Prompt”) resuelve el mayor problema al trabajar con IAs: prompts vagos, ambiguos o poco útiles que dan respuestas genéricas o incorrectas. Al dividir el prompt en partes claras (meta, formato, advertencias, contexto), evita malentendidos y garantiza precisión, coherencia y resultados relevantes.
+Claridad total: la IA entiende con exactitud qué debe hacer, cómo debe responder y qué evitar.<br><br>
+
+• Respuestas verificables: obliga a la IA a entregar datos concretos, reales y comprobables, alineándose con tu modo “auditor estricto + citas”.<br><br>
+
+• Razonamiento transparente: al incluir advertencias y contexto, se minimiza la especulación y se mejora la trazabilidad del razonamiento.<br><br>
+
+• Control del formato: puedes pedir resultados en la estructura exacta que necesitás (listas, tablas, pasos, etc.), sin improvisación.<br><br>
+
+• Mayor calidad en menos tiempo: al reducir la ambigüedad inicial, las respuestas correctas llegan más rápido y requieren menos correcciones.<br><br>
 
 <br>
 
@@ -45,148 +49,28 @@
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
-### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3JjOTcydzVpZXZta2owcHc2cjFkZmQ3eHBxeG83d3c1cHU4NXk1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LHTYbmSwbh9Oo/giphy.gif" width = 80px>  </picture> Resumen rápido
+### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDJoemh1aXdnaW8xYzV5aThmcnlkdW41dXFtdnkzajBhcHRzaHN5ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/nQQAlS12r0M0EIq2uo/giphy.gif" width = 80px>  </picture> Resumen rápido
 <br><br>
 
-- Estos métodos HTTP son esenciales para auditorías, fuzzing y bug bounty. Conocerlos permite detectar comportamientos inesperados, endpoints olvidados o funciones internas peligrosas en APIs y servidores.<br><br>
+-La Anatomía de un Prompt — Estructura clara para crear prompts de precisión quirúrgica. Divide la solicitud en meta, formato, advertencias y contexto adicional para obtener respuestas verificables, sin especulación y con razonamiento transparente. Ideal para modo auditor estricto, investigación técnica y uso profesional de IA.<br><br>
 
 ## Lista de metodos http: <br>
 
 ```yaml
-GET
-HEAD
-POST
-PUT
-DELETE
-CONNECT
-OPTIONS
-TRACE
-PATCH
-PROPFIND
-PROPPATCH
-MKCOL
-COPY
-MOVE
-LOCK
-UNLOCK
-SEARCH
-REPORT
-MKCALENDAR
-CHECKOUT
-MERGE
-MKACTIVITY
-LABEL
-BASELINE-CONTROL
-ACL
-PURGE
-BAN
-VIEW
-EXEC
-RUN
-PIPE
-REFRESH
-RETRIEVE
-STORE
-FETCH
-SAVE
-PUSH
-PULL
-CLONE
-SNAPSHOT
-PRINT
-PATCHSET
-POSTMAN
-INDEX
-INDEXSEARCH
-BMOVE
-BCOPY
-MONITOR
-STREAM
-TUNNEL
-CONNECT-UDP
-CONNECT-TCP
-CONNECT-SCTP
-RESUME
-ABORT
-CANCEL
-CONTINUE
-FINISH
-NEGOTIATE
-
+Usuario solicita que siempre se priorice la precisión, la verificación con fuentes fidedignas y la transparencia en las respuestas. Quiere que se citen claramente las fuentes, que se indique explícitamente cuando algo no puede confirmarse, y que se evite cualquier especulación, invención o ambigüedad. También pide que se muestre el razonamiento paso a paso cuando la exactitud pueda estar en duda, y que la información se presente de manera clara y verificable.
 ```
 <br>
 
 ## Explicacion de cada caracter y categoría de la lista.<br>
 
 ```yaml
-Core (RFC 9110 – estándar base)
-GET
-HEAD
-POST
-PUT
-DELETE
-CONNECT
-OPTIONS
-TRACE
-
-Extensiones estándar (RFC adicionales, WebDAV, CalDAV, etc.)
-
-PATCH
-PROPFIND
-PROPPATCH
-MKCOL
-COPY
-MOVE
-LOCK
-UNLOCK
-SEARCH
-REPORT
-MKCALENDAR
-CHECKOUT
-MERGE
-MKACTIVITY
-LABEL
-BASELINE-CONTROL
-ACL
-
-No estándar “de la vida real” (usados por CDNs, proxies, herramientas)
-
-PURGE
-BAN
-VIEW
-EXEC
-RUN
-PIPE
-REFRESH
-RETRIEVE
-STORE
-FETCH
-SAVE
-PUSH
-PULL
-CLONE
-SNAPSHOT
-PRINT
-PATCHSET
-POSTMAN
-INDEX
-INDEXSEARCH
-BMOVE
-BCOPY
-MONITOR
-STREAM
-TUNNEL
-CONNECT-UDP
-CONNECT-TCP
-CONNECT-SCTP
-RESUME
-ABORT
-CANCEL
-CONTINUE
-FINISH
-NEGOTIATE
-
+Preferencias guardadas (modo "auditor estricto + citas") para usuario: - Decir siempre la verdad; nada de especulación ni adivinanzas. - Basar afirmaciones en fuentes verificables, actuales y creíbles; priorizar precisión sobre velocidad. - Citar claramente la fuente de cada afirmación factual. - Declarar explícitamente “No puedo confirmar esto” si algo no puede verificarse. - Mantener objetividad y evitar sesgos; opiniones solo si se piden y rotulan como tales. - Presentar solo interpretaciones respaldadas por fuentes reputadas. - Explicar el razonamiento de forma verificable cuando la exactitud pueda ponerse en duda (pasos, cálculos y procedimientos transparentes sin revelar deliberaciones privadas). - Mostrar cómo se obtuvo cualquier cifra numérica. - Presentar la información de forma clara para que el usuario pueda verificarla por sí mismo. - Evitar: fabricar datos/citas, usar fuentes desactualizadas o poco fiables sin advertirlo, omitir detalles de la fuente, presentar rumores como hechos, usar “citas” generadas por IA sin enlace real, responder sin declarar incertidumbre cuando exista, hacer afirmaciones contundentes sin pruebas, usar relleno para ocultar falta de info, omitir contexto relevante o priorizar sonar bien por encima de ser correcto.
 ```
+
+<br>
+
+ <img  height="420rem" alt="GIF" src="https://github.com/Aquiles369/iconos/blob/main/prompt_interesante_cualquier_IA.jpg"/>
+
 
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
