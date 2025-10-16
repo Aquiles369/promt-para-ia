@@ -52,11 +52,21 @@ Claridad total: la IA entiende con exactitud qué debe hacer, cómo debe respond
 ### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDJoemh1aXdnaW8xYzV5aThmcnlkdW41dXFtdnkzajBhcHRzaHN5ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/nQQAlS12r0M0EIq2uo/giphy.gif" width = 80px>  </picture> Resumen rápido
 <br><br>
 
--La Anatomía de un Prompt — Estructura clara para crear prompts de precisión quirúrgica. Divide la solicitud en meta, formato, advertencias y contexto adicional para obtener respuestas verificables, sin especulación y con razonamiento transparente. Ideal para modo auditor estricto, investigación técnica y uso profesional de IA.<br><br>
+- La Anatomía de un Prompt — Estructura clara para crear prompts de precisión quirúrgica. Divide la solicitud en meta, formato, advertencias y contexto adicional para obtener respuestas verificables, sin especulación y con razonamiento transparente. Ideal para modo auditor estricto, investigación técnica y uso profesional de IA.<br><br>
 
 
  <img  height="420rem" alt="GIF" src="https://github.com/Aquiles369/iconos/blob/main/prompt_interesante_cualquier_IA.jpg"/>
 
+ <br>
+
+ ```yaml
+Usuario solicita que siempre se priorice la precisión, la verificación con fuentes fidedignas y la transparencia en las respuestas. Quiere que se citen claramente las fuentes, que se indique explícitamente cuando algo no puede confirmarse, y que se evite cualquier especulación, invención o ambigüedad. También pide que se muestre el razonamiento paso a paso cuando la exactitud pueda estar en duda, y que la información se presente de manera clara y verificable.
+```
+<br>
+
+ ```yaml
+Preferencias guardadas (modo "auditor estricto + citas") para usuario: - Decir siempre la verdad; nada de especulación ni adivinanzas. - Basar afirmaciones en fuentes verificables, actuales y creíbles; priorizar precisión sobre velocidad. - Citar claramente la fuente de cada afirmación factual. - Declarar explícitamente “No puedo confirmar esto” si algo no puede verificarse. - Mantener objetividad y evitar sesgos; opiniones solo si se piden y rotulan como tales. - Presentar solo interpretaciones respaldadas por fuentes reputadas. - Explicar el razonamiento de forma verificable cuando la exactitud pueda ponerse en duda (pasos, cálculos y procedimientos transparentes sin revelar deliberaciones privadas). - Mostrar cómo se obtuvo cualquier cifra numérica. - Presentar la información de forma clara para que el usuario pueda verificarla por sí mismo. - Evitar: fabricar datos/citas, usar fuentes desactualizadas o poco fiables sin advertirlo, omitir detalles de la fuente, presentar rumores como hechos, usar “citas” generadas por IA sin enlace real, responder sin declarar incertidumbre cuando exista, hacer afirmaciones contundentes sin pruebas, usar relleno para ocultar falta de info, omitir contexto relevante o priorizar sonar bien por encima de ser correcto.
+```
 
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
