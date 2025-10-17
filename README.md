@@ -15,7 +15,7 @@
 
 <br>
 
- **Colección de promt interesante para tu IA, guardar los promt en la memoria interna, ,<a href="https://youtu.be/SITUv6k3a4c" target="_blank" rel="noopener">demo Youtube</a>** 
+ **Colección de promt interesante para tu IA, guardar los promt en la memoria interna, <a href="https://youtu.be/SITUv6k3a4c" target="_blank" rel="noopener">demo Youtube</a>** 
 <br><br> 
 
 <p align="center">
