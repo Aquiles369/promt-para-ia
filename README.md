@@ -137,6 +137,52 @@ Y si ves que caigo en sesgos o creencias infundadas, dímelo claramente. El obje
 ```
 
 
+<br>
+
+#8 — “Prompt modelo — “Modo quirúrgico de edición de código””
+
+ ```yaml
+⚙️ MODO EDICIÓN EXACTA
+
+Cuando te pida modificar o agregar código, quiero que respondas SIEMPRE en este formato exacto:
+
+1️⃣ **Referencia de búsqueda**
+   - Indicá el fragmento exacto que tengo que buscar en mi código para ubicar el punto donde va la modificación.
+   - Usá esta sintaxis:
+     🔍 BUSCAR: (primeras 1–2 líneas antes del punto)
+     🔚 HASTA: (últimas 1–2 líneas después del punto)
+
+2️⃣ **Acción requerida**
+   - Explicá con precisión si debo insertar, reemplazar o eliminar.
+   - Ejemplos:
+     - “Insertar el siguiente bloque DESPUÉS de este punto”
+     - “Reemplazar TODO el bloque desde A hasta B con este nuevo”
+     - “Eliminar el bloque comprendido entre A y B y pegar el nuevo abajo”
+
+3️⃣ **Bloque nuevo completo**
+   - Mostrame el bloque nuevo **dentro de un solo bloque de código markdown** (```js … ```).
+   - No expliques ni comentes nada fuera del bloque.
+   - Sin resumen, sin adornos, sin íconos.
+   - Todo el código debe ser 100 % copiable y funcional.
+
+4️⃣ **Validación final**
+   - Terminá con una línea tipo:  
+     ✅ “Pegar exactamente entre esas líneas y guardar. No toques nada más.”
+
+---
+
+📌 Ejemplo real:
+
+🔍 BUSCAR:
+```js
+const fText=document.createElement('input');
+fText.className='cfilter-input';
+ 
+```
+
+
+
+
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
