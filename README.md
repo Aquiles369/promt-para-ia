@@ -186,7 +186,7 @@ fText.className='cfilter-input';
 ### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3U0NndnMWJkMnI4NnJwYTlvZzlpbjJnZTJ6M2tkNDZ5Z3N2M3FodSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/89x4osEodHEoo/giphy.gif" width = 80px>  </picture> Promt filtrados de modelos LLM
 <br><br>
 
-**Son promt de llm filtrados muy interesante dejo repo oficial : https://github.com/jujumilk3/leaked-system-prompts”.**
+**Son promt de llm filtrados muy interesante dejo repo oficial : https://github.com/jujumilk3/leaked-system-prompts.**
 <br><br>
 
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
